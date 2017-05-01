@@ -28,13 +28,3 @@ def byte_converter(*args):
 
 for bytes_in in list(map(int, sys.argv[1:])):
     byte_converter(bytes_in)
-
-
-
-###NOTES###                                                                                                                                                    
-#print(sys.argv[1])                                                                                                                                            
-
-######This is not required anymore; was used when the script only contained functions########                                                                  
-# What should be run on the command line                                                                                                                       
-#python -c "import converter as conv; out=conv.byte_converter(123456789); print(out)" 
-#python -c "import converter as conv; conv.byte_converter(283645583092)" 
