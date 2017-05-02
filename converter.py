@@ -1,8 +1,6 @@
+#!/usr/bin/python
 
-
-                                                                                #!/usr/bin/python                                                                                                                                              
-
-#### Converting Bytes to MB, GB, TB                                                                                                                            
+#### Converting Bytes to MB, GB, TB
 
 import os
 import sys
