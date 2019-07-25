@@ -6,15 +6,15 @@ import os
 import sys
 
 def MB(x):
-    M = float(x) / float(1024) / float(1024)
+    M = x / 1024 / 1024
     return M
 
 def GB(x):
-    G = float(MB(x)) / float(1024)
+    G = MB(x) / 1024
     return G
 
 def TB(x):
-    T = float(GB(x)) / float(1024)
+    T = GB(x) / 1024
     return T
 
 def byte_converter(*args):
