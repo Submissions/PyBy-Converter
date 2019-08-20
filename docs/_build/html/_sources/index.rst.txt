@@ -10,6 +10,9 @@ Welcome to Py-By_Converter's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   Installation
+   Usage
+   Examples
 
 
 Indices and tables
